@@ -1,0 +1,69 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="$Copy" is_action="true" action_type="-1" position="2">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="OpenFile" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="$Cut" is_action="true" action_type="-1" position="1">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ToolbarRunGroup" is_group="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ReformatCode" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="AndroidWiFiADB" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Navigation Bar Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="SurroundWith" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="1" position="8">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+  </component>
+</application>
