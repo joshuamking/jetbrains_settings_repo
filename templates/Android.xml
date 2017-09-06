@@ -63,8 +63,8 @@
   <template name="wrapIt" value="task wrapper(type: Wrapper) {&#10;    gradleVersion = &quot;$version$&quot;&#10;}" description="adds a gradle wrapper task" toReformat="true" toShortenFQNames="true">
     <variable name="version" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="GROOVY_DECLARATION" value="true" />
       <option name="JAVA_CODE" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
     </context>
   </template>
   <template name="getC" value="getResources().getColor(R.color.$colorId$)" description="get a color from resources" toReformat="true" toShortenFQNames="true">
