@@ -153,4 +153,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="testingBeforeActivity" value="    @Rule&#10;    public ActivityTestRule&lt;$Activity$&gt; rule = new ActivityTestRule&lt;&gt;($Activity$.class);&#10;    private $Activity$ activity;&#10;&#10;    @Before&#10;    public void setUp() throws Exception {&#10;        activity = rule.getActivity();&#10;    }&#10;    &#10;    $END$" description="Before method for testing activities" toReformat="true" toShortenFQNames="true">
+    <variable name="Activity" expression="groovyScript(&quot;_1.substring(0, _1.lastIndexOf('Test'))&quot;,className())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
