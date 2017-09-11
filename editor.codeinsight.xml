@@ -21,7 +21,7 @@
     <EXCLUDED_PACKAGE NAME="java.util.Optional" />
     <EXCLUDED_PACKAGE NAME="java.util.stream.Stream" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings">
+  <component name="DaemonCodeAnalyzerSettings" profile="Profile Minimum v1">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
 </application>
