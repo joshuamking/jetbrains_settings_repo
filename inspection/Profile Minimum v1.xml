@@ -6,6 +6,7 @@
   <inspection_tool class="Convert2streamapi" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FieldMayBeStatic" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ListIndexOfReplaceableByContains" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LocalCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="REPORT_VARIABLES" value="true" />
@@ -20,6 +21,7 @@
     <option name="m_ignoreEmptyMethods" value="true" />
   </inspection_tool>
   <inspection_tool class="OnDemandImport" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="RedundantSuppression" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RedundantThrowsDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ReplaceAssignmentWithOperatorAssignment" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreLazyOperators" value="true" />
