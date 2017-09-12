@@ -35,10 +35,15 @@
   <inspection_tool class="UNUSED_IMPORT" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryConstantArrayCreationExpression" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnusedImport" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="UNUSED ENTRY" enabled_by_default="true">
     <option name="ignorableAnnotations">
       <value />
     </option>
     <option name="ignoreClassesWithOnlyMain" value="false" />
+  </inspection_tool>
+  <inspection_tool class="WeakerAccess" enabled="true" level="UNUSED ENTRY" enabled_by_default="true">
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_MEMBERS" value="true" />
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="true" />
+    <option name="SUGGEST_PRIVATE_FOR_INNERS" value="false" />
   </inspection_tool>
 </inspections>
