@@ -1,6 +1,7 @@
 <inspections profile_name="Profile Minimum v1" version="1.0">
   <option name="myName" value="Profile Minimum v1" />
   <inspection_tool class="AccessStaticViaInstance" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintObjectAnimatorBinding" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="BashUnresolvedVariable" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="Convert2Diamond" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="Convert2streamapi" enabled="true" level="WARNING" enabled_by_default="true" />
