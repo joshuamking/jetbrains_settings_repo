@@ -5,10 +5,6 @@
   <action id="ActivatePreviewToolWindow">
     <keyboard-shortcut first-keystroke="shift meta 1" />
   </action>
-  <action id="Android.HotswapChanges">
-    <keyboard-shortcut first-keystroke="meta f10" />
-    <keyboard-shortcut first-keystroke="ctrl r" />
-  </action>
   <action id="Android.RestartActivity">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
@@ -33,6 +29,11 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -44,14 +45,18 @@
     <keyboard-shortcut first-keystroke="shift meta 8" />
   </action>
   <action id="EditorUnSelectWord" />
-  <action id="GotoTest" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="Images.ShowThumbnails" />
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
-  <action id="ReplaceInPath" />
   <action id="Run">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift alt h" />

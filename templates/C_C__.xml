@@ -5,11 +5,15 @@
     <variable name="UPPER_BOUND" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
+      <option name="OC_STATEMENT_C" value="true" />
     </context>
   </template>
   <template name="iter" value="for (auto $VAR$ : $CONTAINER$) {&#10;  $END$&#10;}" description="Iterate range (C++11)" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="CONTAINER" expression="variableForIteration()" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
   </template>
   <template name="itit" value="for ($ITER_TYPE$ $ITER$ = $CONTAINER$.begin(); $COPY_ITER$ != $COPY_CONTAINER$.end(); ++$COPY_ITER$) {&#10;  $END$&#10;}" description="Iterate using begin/end member functions" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="CONTAINER" expression="variableForRangeBasedIteration()" defaultValue="&quot;container&quot;" alwaysStopAt="true" />
@@ -17,5 +21,8 @@
     <variable name="ITER" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <variable name="COPY_ITER" expression="ITER" defaultValue="" alwaysStopAt="false" />
     <variable name="COPY_CONTAINER" expression="CONTAINER" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
   </template>
 </templateSet>
