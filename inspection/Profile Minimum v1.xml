@@ -1,0 +1,60 @@
+<inspections profile_name="Profile Minimum v1" version="1.0">
+  <option name="myName" value="Profile Minimum v1" />
+  <inspection_tool class="AccessStaticViaInstance" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintObjectAnimatorBinding" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="BashUnresolvedVariable" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="Convert2Diamond" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="Convert2streamapi" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FieldMayBeStatic" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ListIndexOfReplaceableByContains" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LocalCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="REPORT_VARIABLES" value="true" />
+    <option name="REPORT_PARAMETERS" value="true" />
+  </inspection_tool>
+  <inspection_tool class="LoggerInitializedWithForeignClass" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="loggerClassName" value="org.apache.log4j.Logger,org.slf4j.LoggerFactory,org.apache.commons.logging.LogFactory,java.util.logging.Logger" />
+    <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
+  </inspection_tool>
+  <inspection_tool class="MethodMayBeStatic" enabled="true" level="ERROR" enabled_by_default="true">
+    <option name="m_onlyPrivateOrFinal" value="false" />
+    <option name="m_ignoreEmptyMethods" value="true" />
+  </inspection_tool>
+  <inspection_tool class="OnDemandImport" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="RedundantSuppression" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="RedundantThrowsDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ReplaceAssignmentWithOperatorAssignment" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreLazyOperators" value="true" />
+    <option name="ignoreObscureOperators" value="false" />
+  </inspection_tool>
+  <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <replaceConfiguration name="Replace deprecated @LargeTest" text="@android.test.suitebuilder.annotation.LargeTest" recursive="false" caseInsensitive="false" type="JAVA" reformatAccordingToStyle="true" shortenFQN="true" useStaticImport="true" replacement="@android.support.test.filters.LargeTest">
+      <constraint name="mymethod" script="&quot;import com.intellij.codeInsight.AnnotationUtil&#10;&#10;def method = __context__.parent.resolveMethod()&#10;AnnotationUtil.findAnnotation(method, &quot;com.merge.myclinicaldiary.android.utils.Warning&quot;) != null&quot;" target="true" within="" contains="" />
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="anything" regexp=".*" minCount="0" maxCount="2147483647" within="" contains="" />
+    </replaceConfiguration>
+    <replaceConfiguration name="Removed import android.test.suitebuilder.annotation.LargeTest as it is deprecated" text="android.test.suitebuilder.annotation.LargeTest" recursive="false" caseInsensitive="true" type="JAVA" reformatAccordingToStyle="true" shortenFQN="false" useStaticImport="true" replacement="android.support.test.filters.LargeTest">
+      <constraint name="import" within="" contains="" />
+      <constraint name="importstatement" regexp="import android\.test\.suitebuilder\.annotation\.LargeTest;" within="" contains="" />
+    </replaceConfiguration>
+  </inspection_tool>
+  <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="StaticCallOnSubclass" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="StaticFieldReferenceOnSubclass" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="StringEqualsEmptyString" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="UNUSED_IMPORT" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryConstantArrayCreationExpression" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnusedImport" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="UNUSED ENTRY" enabled_by_default="true">
+    <option name="ignorableAnnotations">
+      <value />
+    </option>
+    <option name="ignoreClassesWithOnlyMain" value="false" />
+  </inspection_tool>
+  <inspection_tool class="WeakerAccess" enabled="true" level="UNUSED ENTRY" enabled_by_default="true">
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_MEMBERS" value="true" />
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="true" />
+    <option name="SUGGEST_PRIVATE_FOR_INNERS" value="false" />
+  </inspection_tool>
+</inspections>

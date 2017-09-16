@@ -11,15 +11,21 @@
     <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
     <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="true" />
     <option name="REFORMAT_ON_PASTE" value="4" />
+    <option name="ADD_IMPORTS_ON_PASTE" value="1" />
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
     <option name="USE_ACCESSORS_IN_EQUALS_HASHCODE" value="true" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <EXCLUDED_PACKAGE NAME="butterknife.Optional" />
     <EXCLUDED_PACKAGE NAME="com.google.android.gms.common.api.Api.ApiOptions.Optional" />
     <EXCLUDED_PACKAGE NAME="java.util.Optional" />
     <EXCLUDED_PACKAGE NAME="java.util.stream.Stream" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings">
+  <component name="DaemonCodeAnalyzerSettings" profile="Profile Minimum v1">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
+  </component>
+  <component name="OCCodeFoldingSettings">
+    <option name="collapseMultilineComments" value="true" />
+    <option name="COLLAPSE_MULTILINE_COMMENTS" value="true" />
   </component>
 </application>
