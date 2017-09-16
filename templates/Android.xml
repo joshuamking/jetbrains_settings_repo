@@ -64,7 +64,6 @@
     <variable name="version" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="GROOVY_DECLARATION" value="true" />
     </context>
   </template>
   <template name="getC" value="getResources().getColor(R.color.$colorId$)" description="get a color from resources" toReformat="true" toShortenFQNames="true">
