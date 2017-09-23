@@ -5,6 +5,7 @@
       <mapping pattern="install" type="Bash" />
       <mapping pattern="FluentWait" type="CLASS" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="Android" type="PLAIN_TEXT" />
       <mapping ext="dex" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
