@@ -1,4 +1,4 @@
-<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+<keymap version="1" name="Joshua Key Map" parent="Mac OS X">
   <action id="$LRU">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
