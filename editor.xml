@@ -15,7 +15,7 @@
       <option name="FONT_TYPE" value="3" />
       <option name="ERROR_STRIPE_COLOR" value="a74c0" />
     </pattern>
-    <pattern icon="important" useCustomColors="false" case-sensitive="false" pattern="\btodo!\b.*">
+    <pattern icon="important" useCustomColors="false" case-sensitive="false" pattern="\bbeforemerge\b.*">
       <option name="FOREGROUND" value="3fe100" />
       <option name="FONT_TYPE" value="3" />
       <option name="ERROR_STRIPE_COLOR" value="a74c0" />
