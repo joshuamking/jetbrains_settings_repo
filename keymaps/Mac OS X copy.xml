@@ -50,6 +50,9 @@
   </action>
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
+  <action id="InferNullity">
+    <keyboard-shortcut first-keystroke="shift alt n" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
@@ -83,4 +86,5 @@
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="tasks.goto" />
 </keymap>
