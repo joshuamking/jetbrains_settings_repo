@@ -1,4 +1,8 @@
 <application>
+  <component name="AndroidFoldingSettings">
+    <option name="collapseAndroidStrings" value="false" />
+    <option name="COLLAPSE_ANDROID_TEXT" value="false" />
+  </component>
   <component name="CodeFoldingSettings">
     <option name="COLLAPSE_DOC_COMMENTS" value="true" />
   </component>
@@ -24,6 +28,14 @@
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Profile Minimum v1">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
+  </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseAccessors" value="true" />
+    <option name="collapseAnonymousClasses" value="true" />
+    <option name="collapseInnerClasses" value="true" />
+    <option name="COLLAPSE_ACCESSORS" value="true" />
+    <option name="COLLAPSE_INNER_CLASSES" value="true" />
+    <option name="COLLAPSE_ANONYMOUS_CLASSES" value="true" />
   </component>
   <component name="OCCodeFoldingSettings">
     <option name="collapseMultilineComments" value="true" />
