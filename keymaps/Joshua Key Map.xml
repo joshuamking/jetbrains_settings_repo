@@ -89,5 +89,8 @@
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="tasks.and.contexts">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="tasks.goto" />
 </keymap>
