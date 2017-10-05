@@ -22,10 +22,6 @@
     <option name="USE_ACCESSORS_IN_EQUALS_HASHCODE" value="true" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
-    <EXCLUDED_PACKAGE NAME="butterknife.Optional" />
-    <EXCLUDED_PACKAGE NAME="com.google.android.gms.common.api.Api.ApiOptions.Optional" />
-    <EXCLUDED_PACKAGE NAME="java.util.Optional" />
-    <EXCLUDED_PACKAGE NAME="java.util.stream.Stream" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Profile Minimum v1">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
