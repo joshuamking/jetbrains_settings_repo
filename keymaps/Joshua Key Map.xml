@@ -1,4 +1,4 @@
-<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+<keymap version="1" name="Joshua Key Map" parent="Mac OS X">
   <action id="$LRU">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
@@ -45,8 +45,17 @@
     <keyboard-shortcut first-keystroke="shift meta 8" />
   </action>
   <action id="EditorUnSelectWord" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
+  <action id="InferNullity">
+    <keyboard-shortcut first-keystroke="shift alt n" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
@@ -74,7 +83,14 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="context.load">
+    <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="tasks.and.contexts">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="tasks.goto" />
 </keymap>

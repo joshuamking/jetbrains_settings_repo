@@ -394,6 +394,7 @@
     <option name="ALIGN_SUBSEQUENT_SIMPLE_METHODS" value="true" />
     <option name="TERNARY_OPERATION_WRAP" value="5" />
     <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
+    <option name="FIELD_ANNOTATION_WRAP" value="0" />
     <arrangement>
       <groups>
         <group>

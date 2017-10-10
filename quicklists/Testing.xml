@@ -1,0 +1,5 @@
+<list display="Testing" description="this is  a test">
+  <action id="InferAnnotations" />
+  <action id="QuickList.$Separator$" />
+  <action id="hg4idea.branches" />
+</list>
