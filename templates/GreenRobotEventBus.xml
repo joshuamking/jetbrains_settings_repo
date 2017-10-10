@@ -1,8 +1,9 @@
 <templateSet group="GreenRobotEventBus">
-  <template name="subscribe" value="@org.greenrobot.eventbus.Subscribe&#10;public void onEvent ($package$.events.$EVENT_NAME$ $PARAM_NAME$){&#10;&#9;$PARAM_NAME$.$END$&#10;}" description="New Event Bus @Subcribe method" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="subscribe" value="@org.greenrobot.eventbus.Subscribe&#10;public void onEvent (final $package$.events.$EVENT_NAME$ $PARAM_NAME$){&#10;&#9;$PARAM_NAME$.$CURSOR$&#10;}" description="New Event Bus @Subcribe method" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="package" expression="currentPackage()" defaultValue="" alwaysStopAt="true" />
     <variable name="EVENT_NAME" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAM_NAME" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM_NAME" expression="" defaultValue="suggestVariableName()" alwaysStopAt="false" />
+    <variable name="CURSOR" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
