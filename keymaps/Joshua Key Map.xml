@@ -31,19 +31,30 @@
   </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="shift ctrl space" />
+    <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
     <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
+  <action id="Console.Execute.Multiline" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
+  <action id="EditorChooseLookupItemCompleteStatement">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="EditorSelectWord" />
+  <action id="EditorSplitLine">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift meta 8" />
   </action>
@@ -52,6 +63,14 @@
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="GotoTest" />
+  <action id="HippieBackwardCompletion">
+    <keyboard-shortcut first-keystroke="shift alt slash" />
+    <keyboard-shortcut first-keystroke="shift alt semicolon" />
+  </action>
+  <action id="HippieCompletion">
+    <keyboard-shortcut first-keystroke="alt slash" />
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
   <action id="Images.ShowThumbnails" />
   <action id="InferNullity">
     <keyboard-shortcut first-keystroke="shift alt n" />
@@ -89,6 +108,7 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="ViewSource" />
   <action id="context.load">
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
