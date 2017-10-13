@@ -1,4 +1,10 @@
 <templateSet group="Android">
+  <template name="visible" value="$VIEW$.setVisibility(View.VISIBLE);" description="Set view visibility to VISIBLE" toReformat="true" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
   <template name="rstr" value="R.string.$resource$" description="R.string." toReformat="true" toShortenFQNames="true">
     <variable name="resource" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -23,7 +29,7 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
-  <template name="rcolor" value="R.color.$resource$" description="R.color." toReformat="true" toShortenFQNames="true">
+  <template name="rcol" value="R.color.$resource$" description="R.color." toReformat="true" toShortenFQNames="true">
     <variable name="resource" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
@@ -32,6 +38,46 @@
     </context>
   </template>
   <template name="rlay" value="R.layout.$resource$" description="R.layout." toReformat="true" toShortenFQNames="true">
+    <variable name="resource" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="arlay" value="android.R.layout.$resource$" description="android.R.layout." toReformat="true" toShortenFQNames="true">
+    <variable name="resource" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="arstr" value="android.R.string.$resource$" description="android.R.string." toReformat="true" toShortenFQNames="true">
+    <variable name="resource" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="arid" value="android.R.id.$resource$" description="android.R.id." toReformat="true" toShortenFQNames="true">
+    <variable name="resource" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="ardraw" value="android.R.drawable.$resource$" description="android.R.drawable." toReformat="true" toShortenFQNames="true">
+    <variable name="resource" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="arcol" value="android.R.color.$resource$" description="android.R.color." toReformat="true" toShortenFQNames="true">
     <variable name="resource" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
