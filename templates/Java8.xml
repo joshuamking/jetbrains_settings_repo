@@ -1,0 +1,13 @@
+<templateSet group="Java8">
+  <template name="optnull" value="Optional.ofNullable($var$)$END$" description="Optional.ofNullable" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="optemp" value="Optional.empty()" description="Optional.empty" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
