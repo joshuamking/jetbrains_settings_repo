@@ -39,6 +39,10 @@
     <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
   <action id="Console.Execute.Multiline" />
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="shift meta alt c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
