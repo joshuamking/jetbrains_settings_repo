@@ -1,15 +1,16 @@
 <scheme name="Joshua Colors" version="142" parent_scheme="Default">
-  <metaInfo>
-    <property name="created">2017-09-29T17:55:17</property>
-    <property name="ide">AndroidStudio</property>
-    <property name="ideVersion">2.3.3.0</property>
-    <property name="modified">2017-09-29T17:55:20</property>
-    <property name="originalScheme">New_Default</property>
-  </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
+    <option name="EDITOR_FONT_SIZE" value="11" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Courier New" />
+    <option name="EDITOR_FONT_SIZE" value="11" />
+  </font>
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="X_SMALL" />
-  <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="ba17" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -38,6 +39,7 @@
     <option name="METHOD_SEPARATORS_COLOR" value="4d4d4d" />
     <option name="MODIFIED_LINES_COLOR" value="7a770a" />
     <option name="NOTIFICATION_BACKGROUND" value="5c5c42" />
+    <option name="READONLY_BACKGROUND" value="5d6368" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="323232" />
@@ -64,6 +66,7 @@
       <value>
         <option name="BACKGROUND" value="ff0000" />
         <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="ERROR_STRIPE_COLOR" value="ff0000" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -286,6 +289,7 @@
       <value>
         <option name="FOREGROUND" value="6a8759" />
         <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="ERROR_STRIPE_COLOR" value="ff0000" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -350,6 +354,7 @@
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="c3c3c3" />
+        <option name="ERROR_STRIPE_COLOR" value="c3c3c3" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -394,8 +399,11 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="b1b1b1" />
         <option name="BACKGROUND" value="bf0000" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="ERROR_STRIPE_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -407,6 +415,8 @@
       <value>
         <option name="FOREGROUND" value="8c8c8c" />
         <option name="BACKGROUND" value="3a3a3a" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -464,7 +474,6 @@
       <value>
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="5d8730" />
-        <option name="ERROR_STRIPE_COLOR" value="5d8e48" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -534,6 +543,12 @@
       <value>
         <option name="FOREGROUND" value="80805a" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LIVE_TEMPLATE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="555555" />
+        <option name="EFFECT_COLOR" value="ff0000" />
       </value>
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
@@ -12787,8 +12802,9 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="155221" />
-        <option name="ERROR_STRIPE_COLOR" value="246e00" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ff00" />
+        <option name="ERROR_STRIPE_COLOR" value="ff00" />
       </value>
     </option>
     <option name="SPY-JS.EXCEPTION">
@@ -12888,16 +12904,17 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="425f44" />
-        <option name="EFFECT_COLOR" value="56ac48" />
-        <option name="ERROR_STRIPE_COLOR" value="425f44" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ff00" />
+        <option name="EFFECT_COLOR" value="7ac11" />
+        <option name="ERROR_STRIPE_COLOR" value="ff00" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="3fe100" />
         <option name="FONT_TYPE" value="3" />
-        <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+        <option name="ERROR_STRIPE_COLOR" value="3fe100" />
       </value>
     </option>
     <option name="TYPEDEF">
@@ -12912,6 +12929,7 @@
     </option>
     <option name="TYPO">
       <value>
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="ed00d8" />
       </value>
     </option>
@@ -12938,22 +12956,23 @@
       <value>
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="cc7832" />
-        <option name="ERROR_STRIPE_COLOR" value="cc7832" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="532b2e" />
-        <option name="ERROR_STRIPE_COLOR" value="c55450" />
+        <option name="FOREGROUND" value="3c3f41" />
+        <option name="BACKGROUND" value="ff00d4" />
+        <option name="ERROR_STRIPE_COLOR" value="ff00" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="ff0000" />
-        <option name="EFFECT_COLOR" value="ff00e3" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="FOREGROUND" value="b1b1b1" />
+        <option name="BACKGROUND" value="bf0000" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="ERROR_STRIPE_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME">
