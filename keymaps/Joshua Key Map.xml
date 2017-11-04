@@ -38,6 +38,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
     <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
+  <action id="CompileDirty" />
   <action id="Console.Execute.Multiline" />
   <action id="CopyReference">
     <keyboard-shortcut first-keystroke="shift meta alt c" />
@@ -46,6 +47,10 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
+  <action id="Debugger.PopFrame">
+    <keyboard-shortcut first-keystroke="meta f7" />
+  </action>
+  <action id="EditBreakpoint" />
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
@@ -63,6 +68,10 @@
     <keyboard-shortcut first-keystroke="shift meta 8" />
   </action>
   <action id="EditorUnSelectWord" />
+  <action id="FindUsagesInFile" />
+  <action id="ForceRunToCursor" />
+  <action id="ForceStepInto" />
+  <action id="ForceStepOver" />
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
@@ -79,14 +88,21 @@
   <action id="InferNullity">
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
+  <action id="MakeModule" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta f9" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
@@ -96,6 +112,13 @@
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
+  <action id="StepInto" />
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
@@ -112,6 +135,13 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="ToggleFieldBreakpoint">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="ToggleTemporaryLineBreakpoint">
+    <keyboard-shortcut first-keystroke="shift meta f8" />
+  </action>
+  <action id="ViewBreakpoints" />
   <action id="ViewSource" />
   <action id="context.load">
     <keyboard-shortcut first-keystroke="shift alt l" />
