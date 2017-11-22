@@ -1,5 +1,5 @@
 <scheme name="Joshua Colors" version="142" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.0" />
+  <option name="FONT_SCALE" value="1.0" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
     <option name="EDITOR_FONT_SIZE" value="11" />
@@ -566,6 +566,47 @@
       <value>
         <option name="EFFECT_TYPE" value="1" />
       </value>
+    </option>
+    <option name="KOTLIN_ABSTRACT_CLASS">
+      <value>
+        <option name="FOREGROUND" value="669bfb" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
+    <option name="KOTLIN_EXTENSION_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="ffb8a0" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="KOTLIN_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="e7e700" />
+      </value>
+    </option>
+    <option name="KOTLIN_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="ffb8a0" />
+      </value>
+    </option>
+    <option name="KOTLIN_OPERATION_SIGN">
+      <value />
+    </option>
+    <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="ffb8a0" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="KOTLIN_PARENTHESIS">
+      <value />
+    </option>
+    <option name="KOTLIN_SAFE_ACCESS">
+      <value />
+    </option>
+    <option name="KOTLIN_SEMICOLON">
+      <value />
     </option>
     <option name="LABEL">
       <value>
