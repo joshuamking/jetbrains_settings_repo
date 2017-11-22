@@ -2,17 +2,35 @@
   <template name="fixme" value="// FIXME: $date$ : $todo$" description="Do whenever you can | adds // FIXME" toReformat="true" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
   </template>
   <template name="stopship" value="// STOPSHIP: $date$ : $todo$ " description="adds // STOPSHIP" toReformat="true" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
   </template>
   <template name="todo" value="// TODO: $date$ : $todo$ " description="Do before release | adds // TODO" toReformat="true" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
   </template>
   <template name="todoxml" value="&lt;!-- TODO: $date$ : $todo$ --&gt; " description="Do before release | adds &lt;!-- TODO --&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
@@ -32,11 +50,11 @@
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="COMPLETION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="fixmexml" value="&lt;!-- FIXME: $date$ : $todo$ --&gt; " description="Do whenever you can | adds &lt;!-- FIXME --&gt;" toReformat="true" toShortenFQNames="true">
