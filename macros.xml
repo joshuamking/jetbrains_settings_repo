@@ -1,9 +1,0 @@
-<application>
-  <component name="ActionMacroManager">
-    <macro name="Infer and Commit">
-      <action id="InferNullity" />
-      <action id="InferAnnotations" />
-      <action id="CheckinProject" />
-    </macro>
-  </component>
-</application>
