@@ -1,0 +1,15 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Android XML code style notification" displayType="NONE" shouldLog="false" />
+    <notification groupId="Compiler" />
+    <notification groupId="Gradle Build (Balloon)" displayType="NONE" />
+    <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="ideavim-sticky" displayType="STICKY_BALLOON" />
+    <notification groupId="Indexing" displayType="NONE" shouldLog="false" />
+    <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
+    <notification groupId="Plugin Errors" />
+    <notification groupId="Project Startup Tasks Messages" />
+    <notification groupId="System Health" displayType="STICKY_BALLOON" />
+    <notification groupId="Test Runner" />
+  </component>
+</application>
