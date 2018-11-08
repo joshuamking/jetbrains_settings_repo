@@ -620,7 +620,8 @@
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="2e2e2e" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="202020" />
         <option name="EFFECT_COLOR" value="ff0000" />
       </value>
     </option>
