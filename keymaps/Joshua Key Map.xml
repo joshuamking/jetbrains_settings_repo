@@ -81,6 +81,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
+  <action id="Git.Menu">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="GotoTest" />
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="shift alt slash" />
@@ -117,6 +120,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="SelectNextOccurrence" />
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
