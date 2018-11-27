@@ -1,0 +1,11 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="2.4.1.5-2018.1" />
+    <option name="highlightColor" value="80cbc4" />
+    <option name="accentColor" value="0bcbc0" />
+    <option name="useMaterialIcons" value="false" />
+    <option name="darkTitleBar" value="true" />
+    <option name="settingsSelectedTab" value="2" />
+    <option name="userId" value="-7b19375b:167560ab056:-8000" />
+  </component>
+</application>
