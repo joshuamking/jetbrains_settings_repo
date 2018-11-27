@@ -546,6 +546,25 @@
         <option name="BACKGROUND" value="364135" />
       </value>
     </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="a8a8a8" />
+        <option name="BACKGROUND" value="5f5f5f" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="a8a8a8" />
+        <option name="BACKGROUND" value="5f5f5f" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="a8a8a8" />
+        <option name="BACKGROUND" value="5f5f5f" />
+      </value>
+    </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="IVAR">
       <value>
@@ -595,6 +614,15 @@
         <option name="FOREGROUND" value="ffb8a0" />
         <option name="FONT_TYPE" value="2" />
       </value>
+    </option>
+    <option name="KOTLIN_SMART_CAST_RECEIVER">
+      <value />
+    </option>
+    <option name="KOTLIN_SMART_CAST_VALUE">
+      <value />
+    </option>
+    <option name="KOTLIN_SMART_CONSTANT">
+      <value />
     </option>
     <option name="LABEL">
       <value>
