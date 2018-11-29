@@ -102,9 +102,6 @@
     <option name="VARIABLE_ANNOTATION_WRAP" value="5" />
     <option name="SPACE_BEFORE_ANOTATION_PARAMETER_LIST" value="true" />
     <option name="ENUM_CONSTANTS_WRAP" value="5" />
-    <indentOptions>
-      <option name="USE_TAB_CHARACTER" value="true" />
-    </indentOptions>
     <arrangement>
       <tokens>
         <token id="visibility" name="visibility">
@@ -450,7 +447,7 @@
   <codeStyleSettings language="XML">
     <option name="WRAP_ON_TYPING" value="1" />
     <indentOptions>
-      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
     <arrangement>
       <rules>
