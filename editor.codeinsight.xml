@@ -23,6 +23,8 @@
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_MEMBER_IMPORTS_ON_THE_FLY" value="false" />
+    <EXCLUDED_PACKAGE NAME="java.nio.file.Files.find" />
+    <EXCLUDED_PACKAGE NAME="org.jetbrains.anko.find" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
@@ -31,11 +33,6 @@
     <option name="collapseAccessors" value="true" />
     <option name="collapseAnonymousClasses" value="true" />
     <option name="collapseInnerClasses" value="true" />
-    <option name="inlineParameterNamesForLiteralCallArguments" value="true" />
-    <option name="COLLAPSE_ACCESSORS" value="true" />
-    <option name="COLLAPSE_INNER_CLASSES" value="true" />
-    <option name="COLLAPSE_ANONYMOUS_CLASSES" value="true" />
-    <option name="INLINE_PARAMETER_NAMES_FOR_LITERAL_CALL_ARGUMENTS" value="true" />
   </component>
   <component name="OCCodeFoldingSettings">
     <option name="collapseBlockExpressions" value="true" />
