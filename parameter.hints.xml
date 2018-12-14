@@ -1,5 +1,16 @@
 <application>
   <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java" />
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin">
+        <added pattern="kotlin.Suppress(names)" />
+      </blacklist>
+    </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
+    <option id="SHOW_LOCAL_VARIABLE_HINT" value="true" />
+    <option id="SHOW_FUNCTION_HINT" value="true" />
+    <option id="SHOW_PARAMETER_TYPE_HINT" value="true" />
+    <option id="SHOW_SUSPENDING_CALL" value="true" />
   </component>
 </application>
