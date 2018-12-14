@@ -5,6 +5,9 @@
   <action id="ActivatePreviewToolWindow">
     <keyboard-shortcut first-keystroke="shift meta 1" />
   </action>
+  <action id="Android.HotswapChanges">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="Android.RestartActivity">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
@@ -101,6 +104,12 @@
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta f9" />
