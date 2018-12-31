@@ -5,6 +5,7 @@
       <blacklist language="Groovy" />
       <blacklist language="Kotlin">
         <added pattern="kotlin.Suppress(names)" />
+        <added pattern="kotlinx.coroutines.delay(timeMillis)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
