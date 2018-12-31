@@ -27,6 +27,8 @@
     <EXCLUDED_PACKAGE NAME="androidx.test.InstrumentationRegistry" />
     <EXCLUDED_PACKAGE NAME="com.driveclutch.notsideflip.R.id" />
     <EXCLUDED_PACKAGE NAME="java.nio.file.Files.find" />
+    <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
+    <EXCLUDED_PACKAGE NAME="junit.framework.TestCase" />
     <EXCLUDED_PACKAGE NAME="org.jetbrains.anko.find" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
