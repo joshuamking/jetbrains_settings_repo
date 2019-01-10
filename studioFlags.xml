@@ -2,7 +2,7 @@
   <component name="StudioFlags">
     <option name="data">
       <map>
-        <entry key="navigation.enable.nav.editor" value="false" />
+        <entry key="navigation.enable.nav.editor" value="true" />
       </map>
     </option>
   </component>
