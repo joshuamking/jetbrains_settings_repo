@@ -6,6 +6,7 @@
       <blacklist language="Kotlin">
         <added pattern="kotlin.Suppress(names)" />
         <added pattern="kotlinx.coroutines.delay(timeMillis)" />
+        <added pattern="com.driveclutch.notsideflip.util.extensions.suspendWithMinTime(minTimeOfExecution,function)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
