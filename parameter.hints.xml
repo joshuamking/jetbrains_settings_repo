@@ -8,6 +8,7 @@
         <added pattern="kotlinx.coroutines.delay(timeMillis)" />
         <added pattern="com.driveclutch.notsideflip.util.extensions.suspendWithMinTime(minTimeOfExecution,function)" />
         <added pattern="com.driveclutch.notsideflip.util.extensions.invoke(lifecycleOwner,function)" />
+        <added pattern="com.driveclutch.notsideflip.util.extensions.visible(visible)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
