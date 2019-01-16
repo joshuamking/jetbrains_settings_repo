@@ -1,0 +1,9 @@
+<application>
+  <component name="TestRecorderSettings">
+    <option name="EVALUATION_DEPTH" value="2" />
+    <option name="SCROLL_DEPTH" value="3" />
+    <option name="ASSERTION_DEPTH" value="2" />
+    <option name="USE_TEXT_FOR_ELEMENT_MATCHING" value="false" />
+    <option name="USE_CONTENT_DESCRIPTION_FOR_ELEMENT_MATCHING" value="false" />
+  </component>
+</application>
