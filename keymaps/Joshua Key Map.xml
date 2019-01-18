@@ -98,6 +98,9 @@
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift ctrl meta back_space" />
+  </action>
   <action id="MakeModule" />
   <action id="RebuildGradleProject">
     <keyboard-shortcut first-keystroke="f12" />
