@@ -21,6 +21,7 @@
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
     <option name="USE_ACCESSORS_IN_EQUALS_HASHCODE" value="true" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <EXCLUDED_PACKAGE NAME="android.app.Fragment" />
     <EXCLUDED_PACKAGE NAME="android.provider.Contacts.Intents.UI" />
     <EXCLUDED_PACKAGE NAME="androidx.test.InstrumentationRegistry" />
