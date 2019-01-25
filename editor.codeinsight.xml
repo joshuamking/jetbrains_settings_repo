@@ -1,13 +1,10 @@
 <application>
-  <component name="AndroidFoldingSettings">
-    <option name="collapseAndroidStrings" value="false" />
-    <option name="COLLAPSE_ANDROID_TEXT" value="false" />
-  </component>
   <component name="CodeFoldingSettings">
     <option name="COLLAPSE_METHODS" value="true" />
     <option name="COLLAPSE_DOC_COMMENTS" value="true" />
   </component>
   <component name="CodeInsightSettings">
+    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <option name="PARAMETER_INFO_DELAY" value="500" />
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="JAVADOC_INFO_DELAY" value="500" />
@@ -22,6 +19,7 @@
     <option name="USE_ACCESSORS_IN_EQUALS_HASHCODE" value="true" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+    <option name="TAB_EXITS_BRACKETS_AND_QUOTES" value="true" />
     <EXCLUDED_PACKAGE NAME="android.app.Fragment" />
     <EXCLUDED_PACKAGE NAME="android.provider.Contacts.Intents.UI" />
     <EXCLUDED_PACKAGE NAME="androidx.test.InstrumentationRegistry" />
@@ -46,5 +44,8 @@
     <option name="collapseMultilineComments" value="true" />
     <option name="COLLAPSE_MULTILINE_COMMENTS" value="true" />
     <option name="COLLAPSE_BLOCK_EXPRESSIONS" value="true" />
+  </component>
+  <component name="XmlFoldingSettings">
+    <option name="COLLAPSE_XML_TAGS" value="true" />
   </component>
 </application>
