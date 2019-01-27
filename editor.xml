@@ -1,8 +1,4 @@
 <application>
-  <component name="DefaultFont">
-    <option name="FONT_SIZE" value="24" />
-    <option name="FONT_SCALE" value="2.0" />
-  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
@@ -22,5 +18,6 @@
   </component>
   <component name="XmlEditorOptions">
     <option name="insertQuotesForAttributeValue" value="true" />
+    <option name="showCssInlineColorPreview" value="true" />
   </component>
 </application>

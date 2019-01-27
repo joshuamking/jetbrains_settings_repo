@@ -5,6 +5,9 @@
   <action id="ActivatePreviewToolWindow">
     <keyboard-shortcut first-keystroke="shift meta 1" />
   </action>
+  <action id="Android.HotswapChanges">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="Android.RestartActivity">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
@@ -78,6 +81,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
+  <action id="Git.Menu">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="GotoTest" />
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="shift alt slash" />
@@ -92,6 +98,9 @@
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift ctrl meta back_space" />
+  </action>
   <action id="MakeModule" />
   <action id="RebuildGradleProject">
     <keyboard-shortcut first-keystroke="f12" />
@@ -102,12 +111,19 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta f9" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="SelectNextOccurrence" />
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
