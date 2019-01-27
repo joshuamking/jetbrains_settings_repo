@@ -10,6 +10,7 @@
         <added pattern="com.driveclutch.notsideflip.util.extensions.invoke(lifecycleOwner,function)" />
         <added pattern="com.driveclutch.notsideflip.util.extensions.visible(visible)" />
         <added pattern="com.driveclutch.notsideflip.util.extensions.subscribe(lifecycleOwner,function)" />
+        <added pattern="com.ottomation.ottodock.android.utils.observe(lifecycleOwner,function)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
