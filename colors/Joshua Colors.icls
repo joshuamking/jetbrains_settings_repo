@@ -1,14 +1,19 @@
 <scheme name="Joshua Colors" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="modified">2019-01-27T00:53:45</property>
+    <property name="rainbow Default language">true</property>
+  </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+    <option name="EDITOR_FONT_NAME" value="Monospaced" />
     <option name="EDITOR_FONT_SIZE" value="12" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Courier New" />
-    <option name="EDITOR_FONT_SIZE" value="11" />
+    <option name="EDITOR_FONT_SIZE" value="12" />
   </font>
+  <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="X_SMALL" />
   <colors>
@@ -252,6 +257,12 @@
         <option name="FOREGROUND" value="4646f1" />
       </value>
     </option>
+    <option name="DEFAULT_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="726dff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="808080" />
@@ -300,6 +311,12 @@
         <option name="FOREGROUND" value="77b767" />
       </value>
     </option>
+    <option name="DEFAULT_ENTITY">
+      <value>
+        <option name="FOREGROUND" value="726dff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="e7e700" />
@@ -318,7 +335,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="ff0081" />
+        <option name="FOREGROUND" value="ff74b7" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -368,13 +385,13 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="c605c5" />
+        <option name="FOREGROUND" value="c26dc6" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="ff0081" />
+        <option name="FOREGROUND" value="ff74b7" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -594,8 +611,10 @@
     </option>
     <option name="KOTLIN_ANDROID_EXTENSIONS_PROPERTY_CALL">
       <value>
-        <option name="FOREGROUND" value="a3a8" />
+        <option name="FOREGROUND" value="3ca5a8" />
         <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="575757" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
@@ -12982,7 +13001,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="a9b7c6" />
-        <option name="BACKGROUND" value="2b2b2b" />
+        <option name="BACKGROUND" value="1f1f1f" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
