@@ -21,6 +21,7 @@
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <option name="TAB_EXITS_BRACKETS_AND_QUOTES" value="true" />
     <EXCLUDED_PACKAGE NAME="android.app" />
+    <EXCLUDED_PACKAGE NAME="android.app.AlertDialog" />
     <EXCLUDED_PACKAGE NAME="android.app.Fragment" />
     <EXCLUDED_PACKAGE NAME="android.provider.Contacts.Intents.UI" />
     <EXCLUDED_PACKAGE NAME="androidx.test.InstrumentationRegistry" />
