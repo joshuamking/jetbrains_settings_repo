@@ -12,6 +12,8 @@
         <added pattern="com.driveclutch.notsideflip.util.extensions.subscribe(lifecycleOwner,function)" />
         <added pattern="com.ottomation.ottodock.android.utils.observe(lifecycleOwner,function)" />
         <added pattern="com.driveclutch.notsideflip.util.observe(lifecycleOwner,block)" />
+        <added pattern="com.driveclutch.notsideflip.ui.activity.LoginActivityTest.createExpectedIntent(data,action)" />
+        <added pattern="com.driveclutch.notsideflip.ui.activity.LoginActivityTest.createExpectedIntent(data,action,resultCode,resultData)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_PROPERTY_HINT" value="true" />
