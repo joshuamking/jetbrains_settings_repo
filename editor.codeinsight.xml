@@ -31,6 +31,8 @@
     <EXCLUDED_PACKAGE NAME="java.time" />
     <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
     <EXCLUDED_PACKAGE NAME="junit.framework.TestCase" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.CoreMatchers.allOf" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.core.AllOf.allOf" />
     <EXCLUDED_PACKAGE NAME="org.jetbrains.anko.find" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
