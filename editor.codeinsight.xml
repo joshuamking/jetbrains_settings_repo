@@ -38,6 +38,7 @@
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseAccessors" value="true" />
+    <option name="collapseAnnotations" value="true" />
     <option name="collapseAnonymousClasses" value="true" />
     <option name="collapseInnerClasses" value="true" />
   </component>
@@ -48,6 +49,6 @@
     <option name="COLLAPSE_BLOCK_EXPRESSIONS" value="true" />
   </component>
   <component name="XmlFoldingSettings">
-    <option name="COLLAPSE_XML_TAGS" value="true" />
+    <option name="COLLAPSE_ENTITIES" value="false" />
   </component>
 </application>
