@@ -29,6 +29,8 @@
     <EXCLUDED_PACKAGE NAME="java.time" />
     <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
     <EXCLUDED_PACKAGE NAME="junit.framework.TestCase" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.CoreMatchers.allOf" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.core.AllOf.allOf" />
     <EXCLUDED_PACKAGE NAME="org.jetbrains.anko.find" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
@@ -36,6 +38,7 @@
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseAccessors" value="true" />
+    <option name="collapseAnnotations" value="true" />
     <option name="collapseAnonymousClasses" value="true" />
     <option name="collapseInnerClasses" value="true" />
   </component>
@@ -46,6 +49,6 @@
     <option name="COLLAPSE_BLOCK_EXPRESSIONS" value="true" />
   </component>
   <component name="XmlFoldingSettings">
-    <option name="COLLAPSE_XML_TAGS" value="true" />
+    <option name="COLLAPSE_ENTITIES" value="false" />
   </component>
 </application>
