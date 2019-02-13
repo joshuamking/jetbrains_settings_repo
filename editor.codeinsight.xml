@@ -27,11 +27,19 @@
     <EXCLUDED_PACKAGE NAME="com.driveclutch.notsideflip.R.id" />
     <EXCLUDED_PACKAGE NAME="java.nio.file.Files.find" />
     <EXCLUDED_PACKAGE NAME="java.time" />
+    <EXCLUDED_PACKAGE NAME="java.util.EnumSet.allOf" />
+    <EXCLUDED_PACKAGE NAME="java.util.concurrent.CompletableFuture.allOf" />
     <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
     <EXCLUDED_PACKAGE NAME="junit.framework.TestCase" />
+    <EXCLUDED_PACKAGE NAME="org.apache.commons.lang3" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.CoreMatchers" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.CoreMatchers.allOf" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.core" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.core.AllOf.allOf" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.core.IsInstanceOf" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.object.HasToString" />
     <EXCLUDED_PACKAGE NAME="org.jetbrains.anko.find" />
+    <EXCLUDED_PACKAGE NAME="org.junit.matchers" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
