@@ -34,6 +34,7 @@
     <EXCLUDED_PACKAGE NAME="org.apache.commons.lang3" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.CoreMatchers" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.CoreMatchers.allOf" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.collection" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.core" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.core.AllOf.allOf" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.core.IsInstanceOf" />
