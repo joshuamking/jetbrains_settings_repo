@@ -2,6 +2,7 @@
   <component name="CodeFoldingSettings">
     <option name="COLLAPSE_METHODS" value="true" />
     <option name="COLLAPSE_DOC_COMMENTS" value="true" />
+    <option name="COLLAPSE_CUSTOM_FOLDING_REGIONS" value="true" />
   </component>
   <component name="CodeInsightSettings">
     <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
@@ -20,18 +21,30 @@
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <option name="TAB_EXITS_BRACKETS_AND_QUOTES" value="true" />
+    <EXCLUDED_PACKAGE NAME="android.app.AlertDialog" />
     <EXCLUDED_PACKAGE NAME="android.app.Fragment" />
+    <EXCLUDED_PACKAGE NAME="android.app.FragmentManager" />
+    <EXCLUDED_PACKAGE NAME="android.icu.lang.UCharacter.GraphemeClusterBreak.T" />
     <EXCLUDED_PACKAGE NAME="android.provider.Contacts.Intents.UI" />
     <EXCLUDED_PACKAGE NAME="androidx.test.InstrumentationRegistry" />
     <EXCLUDED_PACKAGE NAME="androidx.test.runner.AndroidJUnit4" />
     <EXCLUDED_PACKAGE NAME="com.driveclutch.notsideflip.R.id" />
     <EXCLUDED_PACKAGE NAME="java.nio.file.Files.find" />
     <EXCLUDED_PACKAGE NAME="java.time" />
+    <EXCLUDED_PACKAGE NAME="java.util.EnumSet.allOf" />
+    <EXCLUDED_PACKAGE NAME="java.util.concurrent.CompletableFuture.allOf" />
     <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
     <EXCLUDED_PACKAGE NAME="junit.framework.TestCase" />
+    <EXCLUDED_PACKAGE NAME="org.apache.commons.lang3" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.CoreMatchers" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.CoreMatchers.allOf" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.collection" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.core" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.core.AllOf.allOf" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.core.IsInstanceOf" />
+    <EXCLUDED_PACKAGE NAME="org.hamcrest.object.HasToString" />
     <EXCLUDED_PACKAGE NAME="org.jetbrains.anko.find" />
+    <EXCLUDED_PACKAGE NAME="org.junit.matchers" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
