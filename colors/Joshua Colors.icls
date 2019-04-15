@@ -1,7 +1,7 @@
 <scheme name="Joshua Colors" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2019-01-27T00:53:45</property>
+    <property name="modified">2019-04-15T10:57:12</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -54,7 +54,7 @@
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="555555" />
     <option name="WHITESPACES" value="505050" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="0" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
