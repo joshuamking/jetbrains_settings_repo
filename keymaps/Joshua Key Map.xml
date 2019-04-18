@@ -118,7 +118,7 @@
     <keyboard-shortcut first-keystroke="meta f9" />
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="SelectNextOccurrence" />
   <action id="SmartStepInto">
@@ -165,6 +165,9 @@
   </action>
   <action id="ViewBreakpoints" />
   <action id="ViewSource" />
+  <action id="android.fd.HotswapAction">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="context.load">
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
