@@ -30,6 +30,7 @@
     <EXCLUDED_PACKAGE NAME="androidx.test.runner.AndroidJUnit4" />
     <EXCLUDED_PACKAGE NAME="com.driveclutch.notsideflip.R.id" />
     <EXCLUDED_PACKAGE NAME="java.nio.file.Files.find" />
+    <EXCLUDED_PACKAGE NAME="java.sql.Date" />
     <EXCLUDED_PACKAGE NAME="java.time" />
     <EXCLUDED_PACKAGE NAME="java.util.EnumSet.allOf" />
     <EXCLUDED_PACKAGE NAME="java.util.concurrent.CompletableFuture.allOf" />
