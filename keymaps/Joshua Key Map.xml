@@ -11,6 +11,9 @@
   <action id="Android.RestartActivity">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="Android.SyncProject">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+  </action>
   <action id="AndroidConnectDebuggerAction">
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
