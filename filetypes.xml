@@ -6,10 +6,12 @@
       <mapping pattern="FluentWait" type="CLASS" />
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="manifestPlaceholders" type="PLAIN_TEXT" />
       <mapping pattern="applicationIdSuffix" type="PLAIN_TEXT" />
-      <mapping pattern="UkAzBoqKkm0UHImh7QhDi3NP8EfFk7KU" type="PLAIN_TEXT" />
-      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="buildConfig" type="PLAIN_TEXT" />
       <mapping pattern="Android" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="UkAzBoqKkm0UHImh7QhDi3NP8EfFk7KU" type="PLAIN_TEXT" />
       <mapping ext="dex" type="PLAIN_TEXT" />
       <mapping ext="mp4" type="PLAIN_TEXT" />
     </extensionMap>
