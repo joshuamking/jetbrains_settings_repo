@@ -165,6 +165,12 @@
   </action>
   <action id="ViewBreakpoints" />
   <action id="ViewSource" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
   <action id="context.load">
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
