@@ -29,6 +29,7 @@
     <EXCLUDED_PACKAGE NAME="androidx.test.InstrumentationRegistry" />
     <EXCLUDED_PACKAGE NAME="androidx.test.runner.AndroidJUnit4" />
     <EXCLUDED_PACKAGE NAME="com.driveclutch.notsideflip.R.id" />
+    <EXCLUDED_PACKAGE NAME="com.pspdfkit.framework.ui" />
     <EXCLUDED_PACKAGE NAME="java.nio.file.Files.find" />
     <EXCLUDED_PACKAGE NAME="java.sql.Date" />
     <EXCLUDED_PACKAGE NAME="java.time" />
