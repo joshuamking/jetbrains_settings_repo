@@ -121,7 +121,7 @@
     <keyboard-shortcut first-keystroke="meta f9" />
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="SelectNextOccurrence" />
   <action id="SmartStepInto">
