@@ -39,6 +39,7 @@
     <EXCLUDED_PACKAGE NAME="java.util.concurrent.CompletableFuture.allOf" />
     <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
     <EXCLUDED_PACKAGE NAME="junit.framework.TestCase" />
+    <EXCLUDED_PACKAGE NAME="net.hockeyapp.android.metrics.model" />
     <EXCLUDED_PACKAGE NAME="org.apache.commons.lang3" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.CoreMatchers" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.CoreMatchers.allOf" />
