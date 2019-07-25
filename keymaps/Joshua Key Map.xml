@@ -118,9 +118,7 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta f9" />
   </action>
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="f10" />
-  </action>
+  <action id="Run" />
   <action id="SelectNextOccurrence" />
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="f8" />
