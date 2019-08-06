@@ -48,7 +48,6 @@
     <EXCLUDED_PACKAGE NAME="org.hamcrest.core.AllOf.allOf" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.core.IsInstanceOf" />
     <EXCLUDED_PACKAGE NAME="org.hamcrest.object.HasToString" />
-    <EXCLUDED_PACKAGE NAME="org.jetbrains.anko.find" />
     <EXCLUDED_PACKAGE NAME="org.junit.matchers" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
