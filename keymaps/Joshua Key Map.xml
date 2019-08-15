@@ -23,9 +23,7 @@
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
-  <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="f10" />
-  </action>
+  <action id="ChooseRunConfiguration" />
   <action id="CleanGradleProject">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
