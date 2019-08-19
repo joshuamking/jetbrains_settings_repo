@@ -53,13 +53,20 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="region" value="///region $region_name$&#10;&#10;$CURSOR$&#10;&#10;///endregion $region_name$" description="Adds region comments" toReformat="false" toShortenFQNames="true">
+  <template name="region" value="///region $region_name$&#10;&#10;$CURSOR$&#10;&#10;///endregion $region_name$" description="Adds region comments" toReformat="true" toShortenFQNames="true">
     <variable name="region_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GROOVY" value="true" />
       <option name="JAVA_CODE" value="true" />
       <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="regionxml" value="&lt;!--region $region_name$--&gt;&#10;&#10;$CURSOR$ &#10;&#10;&lt;!--endregion $region_name$--&gt;" description="Adds xml region comments" toReformat="true" toShortenFQNames="true">
+    <variable name="region_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
     </context>
   </template>
 </templateSet>
