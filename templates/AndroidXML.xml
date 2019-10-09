@@ -7,7 +7,7 @@
   </template>
   <template name="string" value="&lt;string name=&quot;$RES_NAME$&quot;&gt;$RES_VALUE$&lt;/string&gt;" description="Adds Android xml string resource" toReformat="true" toShortenFQNames="true">
     <variable name="RES_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RES_NAME" expression="snakeCase(regularExpression(RES_VALUE, &quot;%\\$[0-9][sdf]|%[sdf]&quot;, &quot;x&quot;))" defaultValue="" alwaysStopAt="true" />
+    <variable name="RES_NAME" expression="snakeCase(regularExpression(RES_VALUE, &quot;%[0-9]\\$[sdf]|%[sdf]&quot;, &quot;x&quot;))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="XML_TEXT" value="true" />
     </context>
