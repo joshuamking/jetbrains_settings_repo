@@ -1,0 +1,15 @@
+<templateSet group="AndroidXML">
+  <template name="tools" value="tools:$ATTRIBUTE$=&quot;$END$&quot;" description="adds tools atribute to Android xml file" toReformat="true" toShortenFQNames="true">
+    <variable name="ATTRIBUTE" expression="" defaultValue="&quot;visibility&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="string" value="&lt;string name=&quot;$RES_NAME$&quot;&gt;$RES_VALUE$&lt;/string&gt;" description="Adds Android xml string resource" toReformat="true" toShortenFQNames="true">
+    <variable name="RES_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RES_NAME" expression="snakeCase(regularExpression(RES_VALUE, &quot;%[0-9]\\$[sdf]|%[sdf]&quot;, &quot;x&quot;))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -18,6 +18,18 @@
           <option name="groupName" value="Android" />
           <option name="key" value="rgS" />
         </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Android" />
+          <option name="key" value="wrapIt" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidXML" />
+          <option name="key" value="appNs" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidXML" />
+          <option name="key" value="toolsNs" />
+        </TemplateKey>
       </list>
     </option>
   </component>
