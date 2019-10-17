@@ -1,5 +1,8 @@
 <application>
   <component name="ExportableFileTemplateSettings">
+    <internal_templates>
+      <template name="Kotlin Class.kt" reformat="true" live-template-enabled="true" enabled="true" />
+    </internal_templates>
     <j2ee_templates>
       <template name="Activity.java" reformat="true" live-template-enabled="true" enabled="true" />
       <template name="AndroidManifest.xml" reformat="true" live-template-enabled="true" enabled="true" />
