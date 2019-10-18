@@ -51,7 +51,7 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="region" value="///region $region_name$&#10;&#10;$END$&#10;&#10;///endregion $region_name$" description="Adds region comments" toReformat="true" toShortenFQNames="true">
+  <template name="region" value="//region $region_name$&#10;&#10;$END$&#10;&#10;//endregion $region_name$" description="Adds region comments" toReformat="true" toShortenFQNames="true">
     <variable name="region_name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GROOVY" value="true" />
