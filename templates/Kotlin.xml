@@ -1,0 +1,8 @@
+<templateSet group="Kotlin">
+  <template name="&lt;abbreviation&gt;" value="    override val logTag = &quot;$logTagName$&quot;&#10;" description="sdf" toReformat="false" toShortenFQNames="true">
+    <variable name="logTagName" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
