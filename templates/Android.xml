@@ -1,5 +1,5 @@
 <templateSet group="Android">
-  <template name="navArgs" value="private val $VAL_NAME$ by navArgs&lt;$NAV_ARGS_CLASS$&gt;()" description="adds a nav args property" toReformat="true" toShortenFQNames="true">
+  <template name="navArgs" value="private val $VAL_NAME$: $NAV_ARGS_CLASS$ by navArgs()" description="adds a nav args property" toReformat="true" toShortenFQNames="true">
     <variable name="VAL_NAME" expression="" defaultValue="&quot;args&quot;" alwaysStopAt="true" />
     <variable name="NAV_ARGS_CLASS" expression="concat(kotlinClassName(), &quot;Args&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
