@@ -4,6 +4,7 @@
     <resource url="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" location="$USER_HOME$/Library/Caches/AndroidStudio2.2/extResources/2889bd79_svg11.dtd" />
     <ignored-resource url="http://creativecommons.org/ns#" />
     <ignored-resource url="http://purl.org/dc/elements/1.1/" />
+    <ignored-resource url="http://schemas.android.com/tools" />
     <ignored-resource url="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
   </component>
 </application>
