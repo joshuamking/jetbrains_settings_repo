@@ -22,4 +22,12 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="viewModel" value="private val $VAL_NAME$: $VIEW_MODEL_CLASS$ by $VIEW_MODEL_RESOLVE_METHOD$()" description="adds a view model property" toReformat="true" toShortenFQNames="true">
+    <variable name="VAL_NAME" expression="" defaultValue="&quot;viewModel&quot;" alwaysStopAt="true" />
+    <variable name="VIEW_MODEL_RESOLVE_METHOD" expression="enum(&quot;viewModels&quot;, &quot;activityViewModels&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VIEW_MODEL_CLASS" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
 </templateSet>
