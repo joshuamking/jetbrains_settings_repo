@@ -3,139 +3,47 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="http://github.com" />
-          <option name="userName" value="joshuamking" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/googlesamples/android-fit.git" />
+          <option name="url" value="https://github.com/calebdre/refuge.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://joshuamking@bitbucket.org/Gozio/gochoa-android.git" />
+          <option name="url" value="git@bitbucket.org:Gozio/uhealth-microsites.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://joshuamking@bitbucket.org/Gozio/goref-android.git" />
+          <option name="url" value="https://bitbucket.org/Gozio/piedmont-microsites" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/joshuamking/androidutils.git" />
+          <option name="url" value="https://github.com/WebProgramming-P1/Blackjack.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="git@bitbucket.org:joshuamking/groupcardgames_android.git" />
+          <option name="url" value="https://github.com/gsu-web-programming-class/game-of-life.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="git@bitbucket.org:boardactive/boards-android.git" />
+          <option name="url" value="git@bitbucket.org:sorigo-speedtracs/speedtracs-hybrid-app.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/aurelhubert/ahbottomnavigation.git" />
+          <option name="url" value="git@bitbucket.org:sorigo/free-chapel.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/joshuamking/pantherhackers_androidsampleapp" />
+          <option name="url" value="git@bitbucket.org:dev-speedtracs/speedtracs-hybrid-app.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/sitepoint-editors/AndroidFingerprintAPI.git" />
+          <option name="url" value="git@bitbucket.org:Sorigo/hostteam.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/kpbird/NotificationListenerService-Example/" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/UnsureSherlock/MobileApp2" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/DriveClutch/clutch-android-identity.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/DriveClutch/clutch-android-common.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/DriveClutch/clutch-android-gradle-whitelabel.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:DriveClutch/clutch-android-gradle-whitelabel.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/DriveClutch/clutch-android.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:hungl/zipcodepro.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/DriveClutch/clutch-android-sideflip.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/DriveClutch/clutch-android-utilities.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/DriveClutch/clutch-android-style.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/DriveClutch/clutch-android-networking.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/DriveClutch/KwikPicker.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:CJFreelancing/ZipCodes-By-Radius-App.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:DriveClutch/clutch-android-image-picker.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:/DriveClutch/clutch-android-charts.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:/Ottomation-LLC/ottodroid.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:Acuant/AcuantAndroidMobileSDKV10.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:material-components/material-components-android.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:barteksc/AndroidPdfViewer.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:/DriveClutch/clutch-android-registration.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:/DriveClutch/clutch-android.git" />
+          <option name="url" value="https://github.com/devias-io/react-material-dashboard.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/StudioProjects" />
-  </component>
-  <component name="Vcs.Log.App.Settings">
-    <option name="SHOW_TAG_NAMES" value="true" />
-    <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
+    <option name="cloneParentDir" value="$USER_HOME$/WebstormProjects" />
   </component>
 </application>
