@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="[PIP-2880] Android: Registration: Address validation is using the rooftop country rather than the..." />
+    <option name="defaultScopeName" value="[PIP-2880] Android: Registration: Address validation is using the rooftop country rather than the..." />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="[PIP-2880] Android: Registration: Address validation is using the rooftop country rather than the..." />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
