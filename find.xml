@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="[PIP-2882] Android: More Carpe changes that were somehow missed before" />
-    <option name="defaultScopeName" value="[PIP-2882] Android: More Carpe changes that were somehow missed before" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="SEARCH_SCOPE" value="[PIP-2882] Android: More Carpe changes that were somehow missed before" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
