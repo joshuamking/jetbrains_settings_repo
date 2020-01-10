@@ -11,5 +11,6 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.xml</mask>
+    <mask>strings.xml</mask>
   </component>
 </application>
