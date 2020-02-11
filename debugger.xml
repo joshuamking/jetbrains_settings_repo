@@ -87,7 +87,11 @@
     <data-views>
       <sort-values>true</sort-values>
     </data-views>
-    <general />
+    <general>
+      <confirm-breakpoint-removal>true</confirm-breakpoint-removal>
+      <option name="hideDebuggerOnProcessTermination" value="true" />
+      <scroll-to-center>true</scroll-to-center>
+    </general>
     <debuggers>
       <debugger id="ObjectiveC">
         <configuration>
