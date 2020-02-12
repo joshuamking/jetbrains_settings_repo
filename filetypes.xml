@@ -1,21 +1,20 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="profile" type="Bash" />
       <mapping ext="php" type="HTML" />
       <mapping pattern="index" type="JavaScript" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="py" type="Native" />
       <mapping pattern=".nogen_dir_structure" type="PLAIN_TEXT" />
-      <mapping pattern=".nogen_index" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".screenrc_srnapidev" type="PLAIN_TEXT" />
+      <mapping pattern=".nogen_index" type="PLAIN_TEXT" />
+      <mapping pattern=".crontab" type="PLAIN_TEXT" />
       <mapping pattern=".screenrc_srnapi_env" type="PLAIN_TEXT" />
       <mapping pattern=".env.template" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="sdf" type="PLAIN_TEXT" />
       <mapping pattern=".eslint" type="PLAIN_TEXT" />
-      <mapping pattern=".crontab" type="PLAIN_TEXT" />
+      <mapping pattern=".screenrc_srnapidev" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="raml" type="PLAIN_TEXT" />
@@ -25,6 +24,7 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pks" type="DBN-PSQL" />
       <mapping ext="prc" type="DBN-PSQL" />
+      <mapping ext="profile" type="Bash" />
       <mapping ext="tpb" type="DBN-PSQL" />
       <mapping ext="tpe" type="DBN-PSQL" />
       <mapping ext="tps" type="DBN-PSQL" />
