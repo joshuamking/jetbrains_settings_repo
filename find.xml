@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="Working on UserProvidedImageView for a few use cases. Will eventually pull this into the shared repo before calling things done." />
+    <option name="defaultScopeName" value="Working on UserProvidedImageView for a few use cases. Will eventually pull this into the shared repo before calling things done." />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="Working on UserProvidedImageView for a few use cases. Will eventually pull this into the shared repo before calling things done." />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
