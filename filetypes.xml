@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="profile" type="Bash" />
       <mapping ext="php" type="HTML" />
+      <mapping ext="webp" type="Image" />
       <mapping pattern="index" type="JavaScript" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="py" type="Native" />
