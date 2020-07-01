@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="[OG-602] Android: Connect our CD tools to MotorDrive's store" />
+    <option name="defaultScopeName" value="[OG-602] Android: Connect our CD tools to MotorDrive's store" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="[OG-602] Android: Connect our CD tools to MotorDrive's store" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
