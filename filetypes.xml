@@ -8,6 +8,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="py" type="Native" />
+      <mapping ext="wav" type="Native" />
       <mapping pattern=".nogen_dir_structure" type="PLAIN_TEXT" />
       <mapping pattern=".name" type="PLAIN_TEXT" />
       <mapping pattern=".nogen_index" type="PLAIN_TEXT" />
