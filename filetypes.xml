@@ -23,6 +23,7 @@
       <mapping pattern="buildConfig" type="PLAIN_TEXT" />
       <mapping pattern="sdf" type="PLAIN_TEXT" />
       <mapping pattern="applicationIdSuffix" type="PLAIN_TEXT" />
+      <mapping ext="mockmaker" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="raml" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
