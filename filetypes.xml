@@ -8,7 +8,6 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="py" type="Native" />
       <mapping ext="wav" type="Native" />
-      <mapping pattern="buildConfig" type="PLAIN_TEXT" />
       <mapping pattern=".nogen_dir_structure" type="PLAIN_TEXT" />
       <mapping pattern="applicationIdSuffix" type="PLAIN_TEXT" />
       <mapping pattern=".screenrc_srnapidev" type="PLAIN_TEXT" />
@@ -19,9 +18,10 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".crontab" type="PLAIN_TEXT" />
       <mapping pattern="sdf" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="buildConfig" type="PLAIN_TEXT" />
       <mapping pattern=".screenrc_srnapi_env" type="PLAIN_TEXT" />
       <mapping pattern=".eslint" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="mockmaker" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="raml" type="PLAIN_TEXT" />
