@@ -15,9 +15,9 @@
       <mapping pattern=".nogen_index" type="PLAIN_TEXT" />
       <mapping pattern=".env.template" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".crontab" type="PLAIN_TEXT" />
       <mapping pattern="sdf" type="PLAIN_TEXT" />
+      <mapping pattern=".crontab" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="buildConfig" type="PLAIN_TEXT" />
       <mapping pattern=".screenrc_srnapi_env" type="PLAIN_TEXT" />
       <mapping pattern=".eslint" type="PLAIN_TEXT" />
