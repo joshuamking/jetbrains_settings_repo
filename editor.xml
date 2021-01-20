@@ -1,6 +1,7 @@
 <application>
   <component name="CodeInsightSettings">
     <option name="selectAutopopupSuggestionsByChars" value="true" />
+    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
     <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
   </component>
@@ -14,7 +15,6 @@
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
-    <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="true" />
     <option name="IS_CAMEL_WORDS" value="true" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
     <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
