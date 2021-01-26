@@ -74,6 +74,12 @@
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
   <action id="EditorSelectWord" />
   <action id="EditorSplitLine">
     <keyboard-shortcut first-keystroke="shift meta enter" />
